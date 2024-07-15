@@ -1,5 +1,5 @@
 {
-	"name": "postgres-diff-api",
+	"name": "@deplorable/postgres-diff-api",
 	"version": "1.4.5",
 	"description": "PostgreSQL migration strategy for NodeJS",
 	"pgver": "9.6+",
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/michaelsogos/pg-diff-api.git"
+		"url": "git+https://github.com/deplorable/postgres-diff-api.git"
 	},
 	"keywords": [
 		"pg",
@@ -36,7 +36,7 @@
 		"url": "https://github.com/michaelsogos/pg-diff-api/issues",
 		"email": "michael.sogos@gurustudioweb.it"
 	},
-	"homepage": "https://github.com/michaelsogos/pg-diff-api#readme",
+	"homepage": "https://github.com/deplorable/postgres-diff-api#readme",
 	"engines": {
 		"node": ">=8.11.1"
 	},
@@ -45,5 +45,8 @@
 		"deep-equal": "2.0.5",
 		"line-by-line": "0.1.6",
 		"pg": "8.5.1"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	}
 }
